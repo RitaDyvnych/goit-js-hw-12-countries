@@ -1,7 +1,61 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.list {
+  margin: 0;
+  padding-left: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
 .section {
   display: flex;
   justify-content: center;
+  margin-top: 20px;
 }
 
-.input {
+.js-output {
+  margin-top: 20px;
+  display: block;
+}
+
+.position {
+  text-align: center;
+}
+
+.country-info {
+  margin: 0 20px;
+}
+.country-info p {
+  margin-bottom: 5px;
+}
+
+.country-info span {
+  font-weight: bold;
+}
+
+.country-container {
+  display: inline-flex;
+  flex-flow: column;
+  align-items: flex-start;
+}
+
+.flag img {
+  display: block;
+  object-fit: contain;
+  width: 300px;
+  height: auto;
+  border: 1px solid black;
 }
