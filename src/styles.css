@@ -21,6 +21,17 @@ p {
   margin: 0;
 }
 
+.title {
+  margin-top: 20px;
+  font-size: 40px;
+  color: #750955;
+}
+
+.subtitle {
+  font-size: 24px;
+  color: #722c92;
+}
+
 .section {
   display: flex;
   justify-content: center;
